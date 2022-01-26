@@ -1,5 +1,5 @@
 
-const dbRepo = require("../repositories/User");
+const dbRepo = require("../repositories/user");
 
 exports.getUsers = (req, res) => {
     // return only json
