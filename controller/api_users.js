@@ -1,4 +1,3 @@
-const User = require("../models/User");
 const dbRepo = require("../repositories/User");
 
 exports.getUsers = (req, res) => {
