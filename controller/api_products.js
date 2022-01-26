@@ -1,5 +1,5 @@
-const Product = require("../models/Product");
-const dbRepo = require("../repositories/Product");
+const Product = require("../models/product");
+const dbRepo = require("../repositories/product");
 
 exports.getProducts = (req, res) => {
  
